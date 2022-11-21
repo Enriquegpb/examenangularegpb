@@ -1,0 +1,11 @@
+<form #formLogin="ngForm" (submit)="login()">
+    <div class="mb-3">
+      <label class="form-label">Username</label>
+      <input type="text" class="form-control" #cajauser name="cajauser" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input type="text" class="form-control" #cajapassword name="cajapassword">
+    </div>
+    <button type="submit" class="btn btn-primary">Logearse</button>
+  </form>

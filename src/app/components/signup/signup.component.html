@@ -1,0 +1,19 @@
+<form #formLogin="ngForm" (submit)="singUp()">
+    <div class="mb-3">
+      <label class="form-label">Username</label>
+      <input type="text" class="form-control" #cajauser name="cajauser" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input type="text" class="form-control" #cajaemail name="cajaemail" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">password</label>
+      <input type="text" class="form-control" #cajapassword name="cajapassword" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input type="text" class="form-control" #cajacheck name="cajacheck">
+    </div>
+    <button type="submit" class="btn btn-primary">Logearse</button>
+  </form>
